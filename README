@@ -11,6 +11,7 @@ This is a unofficial port of CorsixTH to Android, Great Thanks!
    * Install development environment of Android, include SDK(r18 or higher) and NDK(r6 or higher). Download from http://developer.android.com/
    * Set the environment variable ANDROID_SDK_ROOT to the SDK directory, ANDROID_NDK_ROOT to the NDK directory.
    * Compress game files of original Theme Hospital to "th.zip", and put it into assets directory. Or copy the demo/th.zip to assets.
+   * Change directory into jni/ and get source of CorsixTH4Android by command: git clone https://maliku@github.com/maliku/CorsixTH4Android.git, and rename it to "src"
 
 -- How To (Linux)
    * Launch shell, change directory to project directory, run ./mkassets.sh to pack game files;
