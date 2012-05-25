@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome_header">Welcome to ThemeHospital!</string>
+    <string name="language">eng</string>
+    <string name="no_external_storage">External storage isn\'t available. Please make sure that your device is disconnected from a computer and that your SD card is inserted (if applicable) and restart the app.</string>
+    <string name="preparing_game_files_dialog">Preparing Game environment, please wait a moment...</string>
+    <string name="not_suitable_resolution">Sorry, this game requires at least 800x480 resolution in order to run, your device can not run this game.</string>
+    <string name="app_name">ThemeHospital</string>
+    <string name="ok">OK</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play!</string>
+    <string name="stop">Stop</string>
+    <string name="quit">Quit</string>
+    <string name="cancel">Cancel</string>
+    <string name="extracting_game_files_dialog">Extracting Game Files. This will only occur just installed or upgraded, but may take a while.</string>
+    <string name="extracting_failed">File extract failed, this may be the extraction path is incorrect!</string>
+    <string name="env_failed">Preparing environment failed. Please make sure external storage have enough space and try again.</string>
+    <string name="not_enough_space">Not enough external storage space(at least need to 50MB), clean up some useless files and try this app again!</string>
+    <string name="device_type_header">Device Type</string>
+    <string name="select_device_type">Please select your device type:</string>
+    <string name="type_phone">Phone(Lower resolution, better fluency)</string>
+    <string name="type_pad">Pad(Higher resolution, better picture quality)</string>
+    <string name="reselect_device_type">Reselect Device Type</string>
+    <string name="reselect_device_tips">Reselect device type window will show again when you next launch the game.</string>
+    <string name="copy_process">Copy data to external storage...</string>
+    <string name="tips">Download another app named \'Music4ThemeHospital\' from google play, and launch it to extract music data. then you can turn on the nice music in game.</string>
+
+</resources>

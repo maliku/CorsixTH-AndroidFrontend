@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="timidity_urls">
+        <item>http://theme-hospital.googlecode.com/files/timidity.zip</item>
+        <item>http://espier.org/download/apk-installer/timidity.zip</item>
+    </string-array>
+</resources>

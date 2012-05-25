@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+
+    <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:src="@drawable/cth" />
+
+    <TextView
+            android:id="@+id/selectTypeHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headerImage"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/device_type_header"
+            android:textAppearance="@style/WizardHeaderText" />
+
+    <TextView
+            android:id="@+id/selectTypeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectTypeHeader"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="@string/select_device_type"
+            android:textAppearance="@style/WizardText" />
+
+    <RadioGroup
+            android:id="@+id/deviceTypeRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/selectTypeText"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp" >
+
+        <RadioButton
+                android:id="@+id/phoneRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/type_phone" />
+
+        <RadioButton
+                android:id="@+id/padRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/type_pad" />
+    </RadioGroup>
+
+    <TextView
+            android:id="@+id/tips"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/deviceTypeRadioGroup"
+            android:layout_alignParentLeft="true"
+            android:text="@string/tips"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="30dp"
+            android:textAppearance="@style/WizardText" />
+
+    <Button
+            android:id="@+id/play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/play" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+This is a unofficial port of CorsixTH to Android, Great Thanks!
+
+-- Prerequisites
+   * For now, you will require a Android device with a screen resolution of at least 800x480.
+   * Android 2.2 (Froyo) or higher.
+   * At least 40 free on your mobile device
+
+-- Preparation
+   * You need install JDK at first. Download from http://java.sun.com/javase/downloads/index.jsp
+   * Install Ant. Download from http://ant.apache.org/
+   * Install development environment of Android, include SDK(r18 or higher) and NDK(r6 or higher). Download from http://developer.android.com/
+   * Set the environment variable ANDROID_SDK_ROOT to the SDK directory, ANDROID_NDK_ROOT to the NDK directory.
+   * Compress game files of original Theme Hospital to "th.zip", and put it into assets directory. Or copy the demo/th.zip to assets.
+
+-- How To (Linux)
+   * Launch shell, change directory to project directory, run ./mkassets.sh to pack game files;
+   * Execute '$ANDROID_SDK_ROOT/tools/android update project -p .'
+   * Run $ANDROID_NDK_ROOT/ndk-build to compile native code;
+   * Run 'ant debug' to build project, and 'ant debug install' to install apk.
+   * Launch the game!
+
+-- ChangeLog
+   * Expanding bottons for easier operation
+   * Remove the setup wizard;
+   * Remove the permissions of read logs and phone state;
+   * Fix the problem that temprature is too high in some devices;
+   * Bug fixes.
+
+-- Bug & Feedback
+  If you have any question or find any bug, please send mail to us: barleystudio@gmail.com
+
+-- References
+   * Home page of CorsixTH: http://www.corsix-th.com
+   * Installing the SDK: http://developer.android.com/sdk/installing.html
+
+Thanks!
