@@ -3,7 +3,7 @@ This is a unofficial port of CorsixTH to Android, Great Thanks!
 -- Prerequisites
    * For now, you will require a Android device with a screen resolution of at least 800x480.
    * Android 2.2 (Froyo) or higher.
-   * At least 40 free on your mobile device
+   * At least 40MB free on your mobile device
 
 -- Preparation
    * You need install JDK at first. Download from http://java.sun.com/javase/downloads/index.jsp
